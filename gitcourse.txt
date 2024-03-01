@@ -170,8 +170,11 @@ pwd (persent directory)
 
 git remote -v (to check the origin )
 
-
-
+git tag
+#light weight tagging
+#annotated tagging
+git tag -a v1.0 -m "1st Release"
+git show v1.0
 
 
 
