@@ -1,0 +1,177 @@
+Git
+Version control sytem is a tools that helps to track changes in code and collaborate with other developers.
+It is 
+Popular
+Free & Open Source
+Fast & Scalabel.
+
+Setting up Git
+visual studio Code
+windows (Git Bash)
+Mac(Terminal)
+
+git--version(To check version of git)
+
+Configuring Git
+git config --global user.name "My Name"
+git config --global user.email"izhar.adglobal360.com"
+git config --list 
+cd-change directory
+Clone & Status
+-Untracked(New files that git doesn't yet track
+-Modified(changed)
+-Staged(file is ready to be commited
+-Unmodified(Unchanged)
+
+Clone - Cloning a repository on our local machine
+    git clone <-some link->
+
+Status - displays the state of the code
+    git status
+
+Add & Commit
+add- adds new or changed files in your working directory to the git staging area.
+----git add <-file name->
+
+
+Commit - it is the record of change
+ ---git commit -m "some message"
+
+Push command:
+push -upload local repo content to remote repo
+
+----git push origin main---
+
+Init Command
+init- used to create a new git repo
+1.git init
+2.git remote add origin <-link->
+3.git remote -v(to verify remote)
+4.git branch -M main (to rename branch)
+5.git push origin main
+
+
+Github:
+Website that allows developers to store(repository/folder) and manage their code using git.
+https://github.com
+
+
+Github Account
+- Create a new repository:
+- Make your first commit
+
+
+
+WorkFlow
+Local git
+(github repo>clone>changes>add>commit>push)
+
+Git branches:
+
+Branch Commands
+
+Merging Code:
+
+Way 1
+git diff <-branch name->  (to compare commits,branches,files & more)
+git merge <-branch name-> (to merge 2 branches)
+
+WAY 2
+Crete a PR(Pull Request)
+
+
+Pull Request
+It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+Pull Command
+git pull origin main
+Used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+
+Resolving Merge Conflicts
+An event that takes place when Git is Unable to automatically resolve diffrences
+in the code between two commits.
+
+
+Undoing Changes;
+
+Case1: stage changes
+git reset <-file name->
+git reset
+
+Case2:Commited changes (for one commit)
+git reset Head -1
+
+Case3:Commited changes (for many commits)
+
+git reset <-commit hash->
+git reset --hard <-commitr hash->
+
+Fork
+A fork is a new repository that shares code and visibility settings with the original "Upstream repository"
+Fork is a rough copy.
+
+
+Git by telusko
+1.Local version control
+--local copy /local computer
+2.Centralized version control system (CVCS)
+Centralised repository
+centralised server
+3.Distributed version control system(DVCS)
+
+
+Git 
+simple to use
+branching 
+fully distributed version control system
+
+git config
+git config --global --list
+git config --global user.name "Izhar"
+git config --global user.email "izhar.sami@adglobal360.com"
+
+staging area
+commit history
+
+
+----command-----
+git status
+git init
+git init -b main
+git status
+git add filename(app.py/firstcode.txt etc.,)
+git status
+git log (to check how and which commits you have made)
+git commit -m "my first commit"
+git commit -m "my second commit"
+git commit -a -m "my third commit" (this command skips staging area"
+
+
+after changing anything in script save it.
+then check with git status.
+
+working directory>> staging area>>> commit history
+
+
+git diff--(it check the difference between the initial scripts and modified one)
+git add . (This will add all the changes or new file)
+
+git rm --cached creds.txt (to remove file creds.txt)
+
+
+git branch -m "first commit"
+git branch -M main ( to change branch from master to main)
+
+so when we are pushing from local to remote repository
+use ssh-keygen -o
+
+pwd (persent directory)
+
+
+
+
+
+
+
+
